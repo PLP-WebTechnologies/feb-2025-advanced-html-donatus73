@@ -1,0 +1,118 @@
+<!-- ## Instructions
+
+- Create an index.html file.
+
+
+<!-- - Add an ordered list with roman numerals -->
+<h3>Some Countries in Africa </h3>
+<ol type="i">
+    <li>Nigeria</li>
+    <li>Ghana</li>
+    <li>Niger Republic</li>
+    <li>Kenya</li>
+    <li>South Africa</li>
+</ol><br>
+
+
+<!-- - Add an external image from pexels.com -->
+<img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    width=320px height=213px><br><br>
+
+<!-- - Add a table of 5 contacts with; name, address, mobile and emails -->
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Chukudi</td>
+            <td>Ekeruche Lane</td>
+            <td>08065412188</td>
+            <td>chukudi@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>Donatus</td>
+            <td>Enubuzor Street</td>
+            <td>08063720685</td>
+            <td>don4real001@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>Reuben</td>
+            <td>Opia Street</td>
+            <td>08023812366</td>
+            <td>reuben4luv4@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>Prince</td>
+            <td>Umusadege Kwale</td>
+            <td>08065139705</td>
+            <td>Prince@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>Uchebike</td>
+            <td>Enubuzor Uche Avenue</td>
+            <td>0902313122</td>
+            <td>uchebike@gmail.com</td>
+
+        </tr>
+    </tbody>
+    <tfoot>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+    </tfoot>
+</table><br><br>
+
+
+<!-- - Add a registration form
+
+>[!NOTE]
+>  The registration form should have:
+>- Name, email, password, and date fields.
+>- A dropdown, radio buttons, and checkboxes.
+>- Proper labels and placeholders.
+>- Required fields and validation attributes.
+>- Ensure proper indentation and commenting. -->
+
+<h3>Registration Form</h3>
+<form>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email address" required><br>
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="***" required><br>
+    <label for="date">Date</label>
+    <input type="date" id="date" required><br>
+    <label for="country">Select your country</label>
+    <select type="sort">
+        <option value="">Select A Country</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="kenya">Kenya</option>
+        <option value="rwanda">Rwanda</option>
+        <option value="ukraine">Ukraine</option>
+
+    </select><br>
+    <label for="gender">Select your gender</label>
+    <input type="radio" name="gender" id="gender" class="gender" value="male">Male
+    <input type="radio" name="gender" id="gender" class="gender" value="female">Female<br>
+    <label for="card-type">Select your card type</label>
+    <input type="checkbox" id="card-type" name="card-type" value="mastercard">Mastercard
+    <input type="checkbox" id="card-type" name="card-type" value="visa">Visa
+    <input type="checkbox" id="card-type" name="card-type" value="verve">Verve<br>
+
+    <input type="submit" id="submit" name="submit" value="submit">
+</form>
